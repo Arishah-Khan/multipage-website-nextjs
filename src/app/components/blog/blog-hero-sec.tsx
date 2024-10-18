@@ -17,7 +17,7 @@ const lato = Lato({
 
 export default function BlogHeroSection() {
     return (
-        <section className={`bg-[url("/images/footer.png")] bg-cover bg-center grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-center px-5 py-10 md:px-10 md:py-16 rounded-lg`}>
+        <section className={`bg-[url("/images/backgorund.png")] bg-cover bg-center grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-center px-5 py-10 md:px-10 md:py-16 rounded-lg`}>
             <div>
                 <h1 className={`${quicksand.className} text-[#253D4E] text-lg md:text-3xl mb-4 md:mb-6`}>Blog & News</h1>
                 
