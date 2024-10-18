@@ -17,7 +17,7 @@ const lato = Lato({
 
 export default function ShoppingSec() {
   return (
-    <main className="bg-[url('/images/footer.png')] bg-cover bg-center px-4 md:pt-16">
+    <main className="bg-[url('/images/backgorund.png')] bg-cover bg-center px-4 md:pt-16">
       <div className="grid grid-rows-1 md:grid-cols-2  items-center justify-center  md:gap-x-20">
         {/* Text Section */}
         <div className="text-center md:text-left mb-8 md:mb-8 py-10 px-4">
