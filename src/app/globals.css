@@ -2,26 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.card {
+  height: 250px; /* Card ki height set karein */
+  width: 100%; /* Card ki width set karein */
+  background-size: cover; /* Background image ko cover karne ke liye */
+  background-position: center; /* Center position */
+  position: relative; /* Relative position for child elements */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* globals.css */
+
+.bg-custom {
+  @apply bg-cover bg-center; /* Use Tailwind classes */
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
